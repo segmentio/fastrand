@@ -4,6 +4,9 @@ This package provides the implementation of a pseudo-random number source which
 can be used with the standard `rand.Rand` type, and supports re-seeding with no
 overhead.
 
+Note that the pseudo-random number source in this package is not safe to use for
+security-sensitive work.
+
 ## Motivation
 
 Deterministic random number generation is a powerful tool, we use it to build

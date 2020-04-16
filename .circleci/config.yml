@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    working_directory: /go/src/github.com/segmentio/fastrand
+    docker:
+      - image: circleci/golang
+    steps:
+      - checkout
+      - run: go vet
+      - run: go test -v -bench .

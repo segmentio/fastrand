@@ -1,4 +1,4 @@
-# github.com/segmentio/fastrand
+# fastrand [![GoDoc](https://godoc.org/github.com/segmentio/fastrand?status.svg)](https://godoc.org/github.com/segmentio/fastrand) [![Circle CI](https://circleci.com/gh/segmentio/fastrand.svg?style=svg&circle-token=8c82ef91e2078833770b28936dea96fb22246e10)](https://circleci.com/gh/segmentio/fastrand)
 
 This package provides the implementation of a pseudo-random number source which
 can be used with the standard `rand.Rand` type, and supports re-seeding with no

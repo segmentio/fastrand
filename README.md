@@ -1,5 +1,8 @@
 # fastrand [![Circle CI](https://circleci.com/gh/segmentio/fastrand.svg?style=shield&circle-token=8c82ef91e2078833770b28936dea96fb22246e10)](https://circleci.com/gh/segmentio/fastrand) [![Go Report Card](https://goreportcard.com/badge/github.com/segmentio/fastrand)](https://goreportcard.com/report/github.com/segmentio/fastrand) [![GoDoc](https://godoc.org/github.com/segmentio/fastrand?status.svg)](https://godoc.org/github.com/segmentio/fastrand)
 
+> **Note**  
+> Segment has paused maintenance on this project, but may return it to an active status in the future. Issues and pull requests from external contributors are not being considered, although internal contributions may appear from time to time. The project remains available under its open source license for anyone to use.
+
 This package provides the implementation of a pseudo-random number source which
 can be used with the standard `rand.Rand` type, and supports re-seeding with no
 overhead.
